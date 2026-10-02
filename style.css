@@ -1,0 +1,136 @@
+body{
+   font-size: 18px;
+   color: #2D3748;
+   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
+
+}
+
+header {
+    bottom: flex;
+    flex-direction: column;
+
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto 1fr auto;
+}
+
+header {
+    grid-column: 1 / 3;
+    grid-row: 1;
+    background-color: #3C8527;
+    color: #FFFFFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+main {
+    grid-column: 2;
+    grid-row: 2;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-left: 1px solid #ccc;
+}
+
+aside {
+    grid-column: 1;
+    grid-row: 2;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+footer {
+    grid-column: 1 / 3;
+    grid-row: 3;
+     border-top: 1px solid #ccc;
+}
+
+header h1 {
+    font-size: 39px;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+
+}
+
+header img {
+    width: 200px;
+    height: 200px;
+    border-radius: 25%;
+    border: 3px solid #FFFFFF;
+}
+
+.float-left {
+    float: left;
+    width: 40%;
+    height: auto;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.float-right {
+    float: right;
+    width: 40%;
+    height: auto;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+main p{
+    color: #667267;
+}
+
+main article {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+ 
+main h2{
+    font-size: 34px;
+    color: #28651C;
+}
+
+aside > h3 {
+    color: #333322;
+    font-family : Georgia, 'Times New Roman', Times, serif;
+
+}
+
+div h3{
+    color: #333322;
+    font-family : Georgia, 'Times New Roman', Times, serif;
+}
+
+aside > h3 {
+    color: #28651C;
+}
+
+aside div {
+    background-color: #E2E8F0;
+    padding: 10px;
+}
+
+li a {
+    color: #2879B8;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #28651C;
+    color: #FFFFFF;
+    text-align: center;
+
+}
+
